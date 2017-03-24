@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "actor": {
+      "alive": true
+    }
+  },
+  "select": {
+    "name": "target",
+    "query": {
+      "random": {
+        "role": "king"
+      }
+    }
+  },
+  "goal": {
+    "target": {
+      "alive": false
+    }
+  }
+}

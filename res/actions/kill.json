@@ -1,0 +1,12 @@
+{
+  "description": "Kill",
+  "action": "kill",
+  "target": {
+    "alive": true
+  },
+  "result": {
+    "target": {
+      "alive": false
+    }
+  }
+}
