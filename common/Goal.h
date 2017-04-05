@@ -7,7 +7,7 @@
 
 namespace Common {
 
-    class Target {
+    class Goal {
 
     };
 

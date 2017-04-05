@@ -8,13 +8,13 @@
 #include "Action.h"
 #include "Role.h"
 #include "Manager.h"
-#include "Target.h"
+#include "Goal.h"
 
 namespace Common {
 
     using ActionManager = Manager<Action>;
     using RoleManager = Manager<Role>;
-    using TargetManager = Manager<Target>;
+    using TargetManager = Manager<Goal>;
 
     class World {
         ActionManager actionManager;
